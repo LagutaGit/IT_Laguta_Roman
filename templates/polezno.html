@@ -1,0 +1,57 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Полезные материалы
+{% endblock %}
+
+{% block body %}
+<h1 class="display-4 fw-normal" id="h1__text" data-aos="zoom-in">Полезные материалы</h1>
+
+<div id="wrapper__back">
+    <script>
+        VANTA.NET({
+    el: "#wrapper__back",
+    mouseControls: true,
+    touchControls: true,
+    gyroControls: false,
+    minHeight: 200.00,
+    minWidth: 200.00,
+    scale: 1.00,
+    scaleMobile: 1.00,
+    color: 0x49ad4,
+    backgroundColor: 0xffffff,
+    points: 5.00,
+    maxDistance: 10.00,
+    spacing: 10.00
+})
+
+    </script>
+
+    <div class="container">
+        <div class="polezno">
+            <p id="text__modules__p" data-aos="zoom-in">1. Знакомство с языком программирования Java</p>
+            <div class="video" data-aos="zoom-in">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Zxpz5tRrUvU"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+            </div>
+            <p id="text__modules__p" data-aos="zoom-in">2. Знакомство с языком программирования Python</p>
+            <div class="video" data-aos="zoom-in">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/LFCq-mNF96c"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+            </div>
+            <p id="text__modules__p" data-aos="zoom-in">3. Что такое web - разработка?</p>
+            <div class="video" data-aos="zoom-in">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/QuH3P3KLmqQ"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

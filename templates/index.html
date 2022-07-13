@@ -1,0 +1,77 @@
+{% extends 'base.html' %}
+
+{% block title %}
+О направлении
+{% endblock %}
+
+{% block body %}
+<div id="wrapper__back">
+    <script>
+        VANTA.NET({
+    el: "#wrapper__back",
+    mouseControls: true,
+    touchControls: true,
+    gyroControls: false,
+    minHeight: 200.00,
+    minWidth: 200.00,
+    scale: 1.00,
+    scaleMobile: 1.00,
+    color: 0x49ad4,
+    backgroundColor: 0xffffff,
+    points: 5.00,
+    maxDistance: 10.00,
+    spacing: 10.00
+})
+
+
+    </script>
+
+    <div class="container pricing-header p-3 pb-md-4 mx-auto text-center" id="main__with__back">
+        <div>
+            <h1 class="display-4 fw-normal" id="h1__text" data-aos="fade-down-right">IT Квантум </h1>
+        </div>
+        <p id="text__opisanie" data-aos="fade-down">Информационные технологии призваны, основываясь и рационально
+            используя современные
+            достижения в области компьютерной техники и иных высоких технологий, новейших средств коммуникации,
+            программного
+            обеспечения и практического опыта,
+            решать задачи по эффективной организации информационного процесса для снижения затрат времени, труда,
+            энергии и
+            материальных ресурсов во всех сферах человеческой жизни и современного общества.
+            IT-квантум направлен на приобретение обучающимися фундаментальных знаний в сфере информационных технологий,
+            а
+            также освоение перспективных направлений: интернет вещей (IoT), машинное обучение (ML), блокчейн,
+            информационная
+            безопасность и др. посредством работы в команде с использованием кейс-технологий.</p>
+        <div class="container">
+            <div class="row">
+                <div class="col d-flex flex-wrap justify-content-center" id="img__modul" data-aos="fade-left">
+                    <div class="card" style="width: 18rem;">
+                        <a href="/modules" alt=""><img src="static/img/java.jpg" class="card-img-top" alt="Java"></a>
+                        <div class="card-body">
+                            <p class="card-text" id="card__text">Java</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-flex flex-wrap justify-content-center" id="img__modul" data-aos="fade-down">
+                    <div class="card" style="width: 18rem;">
+                        <a href="/modules" alt=""><img src="static/img/python.jpg" class="card-img-top"
+                                                       alt="Python"></a>
+                        <div class="card-body">
+                            <p class="card-text" id="card__text">Python</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-flex flex-wrap justify-content-center" id="img__modul" data-aos="fade-right">
+                    <div class="card" style="width: 18rem;">
+                        <a href="/modules" alt=""><img src="static/img/web.jpg" class="card-img-top" alt="web"></a>
+                        <div class="card-body">
+                            <p class="card-text" id="card__text">Web - разработка</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

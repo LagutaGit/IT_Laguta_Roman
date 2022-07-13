@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Контакты
+{% endblock %}
+
+{% block body %}
+
+
+<div class="container d-flex justify-content-center">
+    <h1 class="display-4 fw-normal" id="h1__text">Контакты</h1>
+</div>
+
+
+<div class="container">
+    <p id="text__modules__p" data-aos="fade-left">Где нас найти?</p>
+    <div class="map" data-aos="fade-up">
+        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A54ee83af116c7d7585701bf0562559f61db3abfd310317140c90a2923a99f223&amp;source=constructor"
+                width="100%" height="592" frameborder="0"></iframe>
+    </div>
+    <address id="text__modules__p" data-aos="fade-right">675002, Амурская область, г. Благовещенск, ул. Пушкина, 44</address>
+    <a href="tel:+79145575828" id="ssylka__cont" data-aos="fade-left">тел.: 8 (914) 557-58-28 (WhatsApp)</a>
+    <a href="tel:+74162226279" id="ssylka__cont" data-aos="fade-right">тел.: 8 (4162) 226-279</a>
+<!--    href="mailto:John%20Smith%20%3Cjs@example.com%3E-->
+    <a href="mailto:kvantorium28@mail.ru" id="ssylka__cont" data-aos="fade-left">kvantorium28@mail.ru</a>
+    <p id="text__modules__p" data-aos="fade-right">Пн - Пт | 8:00-17:00</p>
+</div>
+
+
+{% endblock %}

@@ -1,0 +1,212 @@
+body{
+color: #fff;
+font-size:26px
+
+}
+
+#wrapper__back{
+    background-size: 200%;
+}
+
+#nav{
+    display: flex;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#img__modul:hover{
+transform: scale(1.05);
+transition: 0.3s ease;
+}
+
+
+#box__img{
+width: 100%;
+}
+
+.header{
+    background-color:#3aabec;
+
+}
+
+/*Footer*/
+
+#footer{
+background-color:#3aabec;
+}
+
+#ssylka__footer{
+text-decoration: none}
+
+#footer__img:hover{
+transform: scale(1.4);
+transition: 0.3s ease;
+}
+
+
+#ssylka{
+text-decoration: none;
+color:#fff
+    }
+
+#ssylka:hover{
+color: orange;
+transform: scale(1.05);
+    transition: 0.3s ease;
+}
+
+
+#ssylka__img{
+width:10%
+}
+
+
+
+#footer__img{
+width:35%}
+
+#card__text{
+font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    text-align: center;
+    color: #0099FF;
+    top: 0;
+    left: 0;
+    margin: 0 auto;
+}
+
+
+#h1__text{
+font-weight: 400;
+    font-size: 45px;
+line-height: 36px;
+text-align: center;
+color: #0099ff;
+    padding: 1% 0 3% 0;
+}
+
+#text__opisanie {
+padding: 25px 5px;
+font-style: normal;
+font-weight: 400;
+font-size: 34px;
+line-height: 36px;
+text-align: center;
+color: #3b85dd;
+}
+
+/* Модули */
+
+.back__main{
+color: #3b85dd;
+text-align: center;
+justify-content: center;
+}
+
+#zagolovok__modules__m{
+    font-style: italic;
+    font-weight: 800;
+    font-size: 38px;
+    text-align: center;
+    color: #0099FF;
+    top: 0;
+    left: 0;
+    margin: 0 auto;
+}
+
+#text__modules__m {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    text-align: center;
+    color: #0099FF;
+    top: 0;
+    left: 0;
+    margin: 0 auto;
+}
+
+
+#text__modules__m a {
+    text-decoration: none;
+    color: orange;
+}
+
+
+
+/*Кнопка*/
+
+ .button__container {
+        display: flex;
+        justify-content: center;
+    }
+
+.glow-button {
+    text-decoration: none;
+    display: flex;
+    padding: 15px 30px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 40px 40px #0099FF inset, 0 0 0 0 #0099FF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: white;
+    transition: .15s ease-in-out;
+    justify-content: center;
+    width: 55%;
+}
+
+.glow-button:hover {
+    box-shadow: 0 0 10px 0 #0099FF inset, 0 0 10px 4px #0099FF;
+    color: #0099FF;
+    transition: 0.3s ease;
+}
+
+
+    /*Полезное*/
+
+#text__modules__p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+    color: #0099FF;
+    top: 0;
+    left: 0;
+    margin: 0 auto;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    padding: 3% 0 3% 0;
+}
+
+
+/*Contacts*/
+.map {
+    padding: 3% 0 0 0;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+}
+
+#ssylka__cont{
+text-decoration: none;
+color:#fff
+text-align: center;
+display: flex;
+justify-content: center;
+font-size: 36px;
+text-align: center;
+color: #0099FF;
+}
+
+#ssylka__cont:hover{
+    color: orange;
+    transform: scale(1.05);
+    transition: 0.3s ease;
+}
